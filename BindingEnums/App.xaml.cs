@@ -1,20 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
+﻿// <copyright file="App.xaml.cs" company="Pyatygin S.Y.">
+// Copyright (c) Pyatygin S.Y.. All rights reserved.
+// </copyright>
+
 using System.Globalization;
-using System.Linq;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace BindingEnums
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// Interaction logic for App.xaml.
     /// </summary>
     public partial class App : Application
     {
+        /// <inheritdoc/>
         protected override void OnStartup(StartupEventArgs e)
         {
             CultureInfo info = new CultureInfo("ja-JP");
